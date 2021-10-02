@@ -14,7 +14,6 @@ public class SelectionSort {
             newArr.add(arr.get(smallest));
             arr.remove(smallest);
         }
-
         return newArr;
     }
 
@@ -32,5 +31,4 @@ public class SelectionSort {
         List<Integer> arr = new ArrayList<>(Arrays.asList(5, 3, 6, 2, 10));
         System.out.println(selectionSort(arr)); //[2, 3, 5, 6, 10]
     }
-
 }
